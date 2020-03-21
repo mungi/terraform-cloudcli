@@ -10,12 +10,18 @@ It is based on the light build of [python:3.8-alpine](https://hub.docker.com/_/p
 
 You can use this image with the following:
 
-`docker run --rm -it mungi/terraform-cloudcli  'terraform <command>'`  
-or  
+`docker run --rm -it mungi/terraform-cloudcli  'terraform <command>'`
+
+or
+
 `docker run --rm -it mungi/terraform-cloudcli 'aws <command>'`
-or  
-`docker run --rm -it mungi/terraform-cloudcli 'gsutil <command>'`
-or  
+
+or
+
+`docker run --rm -it mungi/terraform-cloudcli 'gcloud <command>'`
+
+or
+
 `docker run --rm -it mungi/terraform-cloudcli 'az <command>'`
 
 Should you have any questions or suggestions, please open an issue on github.
