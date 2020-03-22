@@ -27,13 +27,20 @@ You can use this image with the following:
 `docker run --rm -it mungi/terraform-cloudcli  'terraform <command>'`
 
 `docker run --rm -it mungi/terraform-cloudcli 'aws <command>'`
+
 `docker run --rm -it mungi/terraform-cloudcli 'az <command>'`
+
 `docker run --rm -it mungi/terraform-cloudcli 'gcloud <command>'`
 
+
 `docker run --rm -it mungi/terraform-cloudcli 'kubectl <command>'`
+
 `docker run --rm -it mungi/terraform-cloudcli 'helm <command>'`
+
 `docker run --rm -it mungi/terraform-cloudcli 'eksctl <command>'`
+
 `docker run --rm -it mungi/terraform-cloudcli 'aws-iam-authenticator <command>'`
+
 
 `docker run --rm -it mungi/terraform-cloudcli 'ansible <command>'`
 
